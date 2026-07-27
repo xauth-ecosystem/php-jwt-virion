@@ -1,6 +1,6 @@
 {
     "name": "chernegasergiy/php-jwt-virion",
-    "description": "Virion wrapper for firebase/php-jwt",
+    "description": "Virion wrapping firebase/php-jwt for use in PocketMine-MP plugins.",
     "require": {
         "php": ">=8.0",
         "firebase/php-jwt": "^7.1.0"
