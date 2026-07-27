@@ -13,6 +13,11 @@
         "php": ">=8.0",
         "firebase/php-jwt": "^7.1.0"
     },
+    "autoload": {
+        "psr-4": {
+            "ChernegaSergiy\\PhpJwtVirion\\": "src/ChernegaSergiy/PhpJwtVirion/"
+        }
+    },
     "extra": {
         "virion": {
             "spec": "3.1",
