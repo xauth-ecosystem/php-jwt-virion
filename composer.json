@@ -1,0 +1,14 @@
+{
+    "name": "chernegasergiy/php-jwt-virion",
+    "description": "Virion wrapper for firebase/php-jwt",
+    "require": {
+        "php": ">=8.0",
+        "firebase/php-jwt": "^7.1"
+    },
+    "extra": {
+        "virion": {
+            "spec": "3.1",
+            "namespace-root": "Firebase\\JWT"
+        }
+    }
+}
