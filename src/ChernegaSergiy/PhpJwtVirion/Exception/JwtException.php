@@ -6,5 +6,5 @@ namespace ChernegaSergiy\PhpJwtVirion\Exception;
 
 use RuntimeException;
 
-class JwtException extends RuntimeException{
+class JwtException extends RuntimeException {
 }
