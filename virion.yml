@@ -1,0 +1,4 @@
+name: php-jwt
+antigen: Firebase\JWT
+version: 7.1.0
+api: [4.0.0, 5.0.0, 6.0.0]
