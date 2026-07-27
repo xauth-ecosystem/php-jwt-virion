@@ -3,7 +3,7 @@
     "description": "Virion wrapper for firebase/php-jwt",
     "require": {
         "php": ">=8.0",
-        "firebase/php-jwt": "^7.1"
+        "firebase/php-jwt": "^7.1.0"
     },
     "extra": {
         "virion": {
