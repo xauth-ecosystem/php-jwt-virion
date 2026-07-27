@@ -1,6 +1,7 @@
 {
     "name": "chernegasergiy/php-jwt-virion",
     "description": "Virion wrapping firebase/php-jwt for use in PocketMine-MP plugins.",
+    "type": "library",
     "license": "LicenseRef-CSSM-Unlimited-2.0",
     "authors": [
         {
