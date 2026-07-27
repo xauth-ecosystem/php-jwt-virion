@@ -18,6 +18,34 @@ projects:
 
 And in your `composer.json`, you do **not** need to require `firebase/php-jwt` directly if you are relying on the virion injection.
 
+### Code Example
+
+You can use the provided `JwtHelper` class to encode and decode tokens easily within your plugin:
+
+```php
+use ChernegaSergiy\PhpJwtVirion\JwtHelper;
+use ChernegaSergiy\PhpJwtVirion\Exception\JwtException;
+
+$secretKey = "your-256-bit-secret";
+$helper = new JwtHelper($secretKey);
+
+// Encode a payload
+$payload = [
+    "iss" => "your-plugin",
+    "aud" => "your-server",
+    "exp" => time() + 3600
+];
+$jwt = $helper->encode($payload);
+
+// Decode a token
+try {
+    $decoded = $helper->decode($jwt);
+    var_dump($decoded);
+} catch (JwtException $e) {
+    echo "Failed to decode JWT: " . $e->getMessage();
+}
+```
+
 ## Contributing
 
 Contributions are welcome and appreciated! Here's how you can contribute:
