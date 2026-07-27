@@ -19,4 +19,5 @@ projects:
 And in your `composer.json`, you do **not** need to require `firebase/php-jwt` directly if you are relying on the virion injection.
 
 ## License
+
 This library is licensed under the CSSM Unlimited License v2.0 (CSSM-ULv2). See the [LICENSE](LICENSE) file for details. The underlying `firebase/php-jwt` library is licensed under the 3-Clause BSD License.
