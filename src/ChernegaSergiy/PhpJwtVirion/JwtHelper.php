@@ -18,6 +18,7 @@ final class JwtHelper {
 
     /**
      * @param array<string, mixed> $payload
+     * @param string|null $kid
      */
     public function encode(array $payload, ?string $kid = null): string {
         return JWT::encode($payload, $this->secret, $this->algorithm, $kid);
