@@ -1,5 +1,7 @@
 # php-jwt-virion
 
+[![Poggit CI](https://poggit.pmmp.io/ci.shield/xauth-ecosystem/php-jwt-virion/php-jwt-virion)](https://poggit.pmmp.io/ci/xauth-ecosystem/php-jwt-virion/php-jwt-virion)
+
 PocketMine-MP Virion (v3.1) wrapper for the `firebase/php-jwt` library. 
 It uses Composer natively to pull the library during the Poggit-CI build process, meaning security updates to the underlying library are not frozen.
 
