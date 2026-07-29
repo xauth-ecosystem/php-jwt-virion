@@ -15,7 +15,7 @@ projects:
     path: ""
     libs:
       - src: xauth-ecosystem/php-jwt-virion/php-jwt-virion
-        version: ^7.1
+        version: ^0.1
 ```
 
 And in your `composer.json`, you do **not** need to require `firebase/php-jwt` directly if you are relying on the virion injection.
